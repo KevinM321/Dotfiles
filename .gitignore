@@ -1,0 +1,61 @@
+# Temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Core dumps
+core
+core.*
+
+# Logs
+*.log
+
+# Trash
+.trash/
+
+# Filesystem metadata
+.DS_Store
+Thumbs.db
+
+# SSH or sensitive info
+*.pem
+*.key
+*.crt
+*.env
+
+# Vim/Neovim
+*.un~
+.netrwhist
+[._]*.s[a-v][a-z]
+Session.vim
+.*.sw[a-p]
+.*.un~
+.viminfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tmuxinator
+*.tmux*
+
+# Compiled files
+*.o
+*.out
+*.so
+*.a
+*.dll
+*.exe
+
+# Git itself
+
+.git/
