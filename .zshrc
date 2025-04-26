@@ -6,6 +6,10 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
+bindkey -v
+bindkey -v '^?' backward-delete-char
+bindkey '^[[Z' reverse-menu-complete
+
 if [ -d "$HOME/Apps/nvim-linux64/bin" ] ; then
     PATH="$HOME/Apps/nvim-linux64/bin:$PATH"
 fi
